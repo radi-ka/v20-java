@@ -10,7 +10,7 @@ import com.oanda.v20.primitives.DateTime;
  * <p>
  * Pricing Heartbeat {time}
  */
-public class PricingHeartbeat {
+public class PricingHeartbeat implements StreamingData{
 
     /**
      * Default constructor.

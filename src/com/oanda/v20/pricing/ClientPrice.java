@@ -16,7 +16,7 @@ import com.oanda.v20.primitives.InstrumentName;
 /**
  * The specification of an Account-specific Price.
  */
-public class ClientPrice {
+public class ClientPrice implements StreamingData {
 
     /**
      * Default constructor.
